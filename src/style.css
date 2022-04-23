@@ -6,10 +6,10 @@
 .vacation{
     flex: 0 0 auto;         /* ADD */
     display: flex;          /* ADD */
-    flex-direction: column;  
+    flex-direction: column;
     position: relative;
     width: 550px;
-    height: 204px;    
+    height: 204px;
 }
 
 .header{
@@ -137,12 +137,10 @@
 .photo{
 
     position: absolute;
-    width: 125px;
-    height: 168px;
+    width: 20%;
     left: 40px;
     top: 100px;
-
-    background: url(.png);
+    aspect-ratio: 2 / 3;
     border-radius: 5px;
 }
 
